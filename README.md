@@ -59,7 +59,7 @@ N = 5;
 Download `mohotools-v0.1.0.zip` and unzip it to a convenient location. This repository includes the source code of mohotools ('+mohotools/') and the example scripts folder ('examples/'). To use **MohoTools** the directory 'mohotool/' (the root folder that contains '+mohotools/' and 'examples/') should be added to the MATLAB path:
 
 ```matlab
-addpath('<yourpath>/mohotool');
+addpath('<yourpath>/mohotools-v0.1.0');
 ```
 
 ## Contribute
