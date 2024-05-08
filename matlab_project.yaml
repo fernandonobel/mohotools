@@ -1,0 +1,11 @@
+name: mohotools
+version: 0.1.0
+description: Tools for full- and moving horizon estimation.
+license: MIT
+authors: 
+  - Fernando N. Santos-Navarro <f.nobel.santos@gmail.com>
+  - Alain Vande Wouwer
+maintainers: 
+  - Fernando N. Santos-Navarro <f.nobel.santos@gmail.com>
+matlab-version: ^R2018b
+dependencies: None

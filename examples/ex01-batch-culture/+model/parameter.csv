@@ -1,0 +1,3 @@
+name,value,units,description
+mu_max,0.2,1/h,Maximum growth rate
+K,1,g/L,Half-activation threshold
