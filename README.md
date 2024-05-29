@@ -56,7 +56,7 @@ N = 5;
 
 **MohoTools** is written for MATLAB's version R2018b or later.
 
-Download `mohotools-v0.1.0.zip` and unzip it to a convenient location. This repository includes the source code of mohotools ('+mohotools/') and the example scripts folder ('examples/'). To use **MohoTools** the directory 'mohotool/' (the root folder that contains '+mohotools/' and 'examples/') should be added to the MATLAB path:
+Download `mohotools-v0.1.0.zip` and unzip it to a convenient location. This repository includes the source code of mohotools (`+mohotools/`) and the example scripts folder (`examples/`). To use **MohoTools** the directory `mohotool-v0.1.0/` (the root folder that contains `+mohotools/` and `examples/`) should be added to the MATLAB path:
 
 ```matlab
 addpath('<yourpath>/mohotools-v0.1.0');
@@ -78,3 +78,4 @@ If you are having issues, please let us know: <fernandonobel.santosnavarro@umons
 ## License
 
 The project is licensed under the MIT license.
+
