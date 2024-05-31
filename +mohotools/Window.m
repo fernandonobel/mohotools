@@ -162,8 +162,12 @@ classdef Window < handle
             % Evaluate the fitting of the model prediciton to the experimental data.
             for i = 1:length(t)
                 y_model = obj.problem.output(t(i), x(i,:));
-                e = obj.y(i,:) - y_model;
-                J = J + e' * inv(obj.problem.R) * e;
+                e = obj.y(i,:)' - y_model;
+                
+                not_nan = ~isnan(e);
+                e = e(not_nan);
+                
+                J = J + e' * inv(obj.problem.R(not_nan, not_nan)) * e;
             end
             
         end
